@@ -48,6 +48,19 @@
 .border-brand-700, .border-indigo-600, .border-indigo-400 { border-color: var(--brand-blue) !important; }
 .hover\:bg-brand-800:hover, .hover\:bg-indigo-500:hover { background-color: #2a3c8a !important; }
 .from-indigo-400 { --tw-gradient-from: var(--brand-blue) !important; }
+
+:root {
+    --brand-blue: #1b4d89;
+    --brand-red: #9e1b2e;
+    --brand-red-hover: #7d1323;
+}
+.border-red-accent { border-top: 4px solid var(--brand-red) !important; }
+.btn-primary, .bg-brand-700 { background-color: var(--brand-red) !important; }
+.btn-primary:hover, .hover\:bg-brand-800:hover { background-color: var(--brand-red-hover) !important; }
+.text-brand-red { color: var(--brand-red) !important; }
+.badge-red { background-color: rgba(158, 27, 46, 0.12); color: var(--brand-red); border: 1px solid rgba(158, 27, 46, 0.25); }
+.card-hover-red:hover { border-color: var(--brand-red) !important; }
+
 </style>
 <script defer="" src="/static/shared_data/js/gallery.js?v=20260513-dom-runtime"></script>
 <script src="https://cdn.tailwindcss.com"></script>
@@ -135,7 +148,7 @@
             height: 2px;
             bottom: -4px;
             left: 0;
-            background-color: #005da3;
+            background-color: var(--brand-red, #9e1b2e);
             transition: width 0.3s ease;
         }
         .nav-link:hover::after {
@@ -149,11 +162,10 @@
 <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center" data-ai-id="406e">
 <!-- Logo -->
 <a class="flex items-center gap-3 group" data-ai-id="0afd" href="index.html">
-<div class="w-10 h-10 rounded-lg flex items-center justify-center text-white transition-transform group-hover:rotate-12 bg-red-600" data-ai-id="4b19" style='background-color: #dc2626; background-image: url("/static/business/9f3164b8-9d83-4bc1-b5e0-ce9cf47f5f2f/images/bce0c7fb_710_710.png"); background-size: cover; background-position: center center; background-repeat: no-repeat'>
-</div>
+<img src="images/logo.png" alt="SWS Logo" class="h-10 w-auto object-contain transition-transform group-hover:scale-105" />
 <div class="flex flex-col" data-ai-id="ac00">
 <span class="text-xl font-extrabold leading-none text-white" data-ai-id="d280">SOLOMON WASSYIHUN</span>
-<span class="text-[10px] tracking-[0.2em] font-bold uppercase text-brand-400" data-ai-id="fb15">Certified Audit Firm</span>
+<span class="text-[10px] tracking-[0.2em] font-bold uppercase text-red-400" data-ai-id="fb15">Certified Audit Firm</span>
 </div>
 </a>
 <!-- Hamburger -->
@@ -163,8 +175,8 @@
 <!-- Navigation -->
 <nav class="hidden flex flex-col gap-6 p-6 absolute top-full left-0 w-full border-t shadow-lg md:flex md:flex-row md:items-center md:static md:w-auto md:bg-transparent md:border-none md:shadow-none md:p-0 bg-neutral-950" data-ai-id="c29c" id="primary-nav">
 <a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="7304" href="index.html#hero">Home</a>
-<a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="ce75" href="recognition.html">Recognition</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="services2-nav" href="https://fqep2f.s.orivox.org/services2.html" style="">Services</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="the-team-nav" href="the_team.html">The Team</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="markets-nav" href="markets.html">Markets</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="affiliations-nav" href="affiliations.html">Affiliations</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="terms-fees-nav" href="terms_and_fees.html">Terms and Fees</a>
-<a class="btn-primary bg-brand-700 text-white px-6 py-2.5 rounded-full text-sm font-semibold" data-ai-id="34a0" href="/new_design/view_site/2d4b558eede24fa087c45ada6f10c206/page_guid/c2608fc3#contact" style="">Get in Touch</a>
+<a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="ce75" href="recognition.html">Recognition</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="services-nav" href="services.html" style="">Services</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="the-team-nav" href="the_team.html">The Team</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="markets-nav" href="markets.html">Markets</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="affiliations-nav" href="affiliations.html">Affiliations</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="terms-fees-nav" href="terms_and_fees.html">Terms and Fees</a>
+<a class="btn-primary bg-brand-700 text-white px-6 py-2.5 rounded-full text-sm font-semibold" data-ai-id="34a0" href="index.html#contact" style="">Get in Touch</a>
 </nav>
 </div>
 <script>
@@ -200,7 +212,7 @@
 <img alt="Solomon Wassyihun" class="rounded-3xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500" data-ai-id="7aa2" src="https://a12.click/ri/8d9065a77b18?w=400&amp;h=533"/>
 </div>
 <div class="lg:w-2/3" data-ai-id="37f3">
-<div class="inline-block px-4 py-1 mb-4 text-xs font-bold tracking-widest text-indigo-400 uppercase border border-indigo-400/30 rounded-full bg-indigo-400/10" data-ai-id="ae7b">Principal</div>
+<div class="inline-block px-4 py-1 mb-4 text-xs font-bold tracking-widest text-red-400 uppercase border border-red-500/30 rounded-full bg-red-500/10" data-ai-id="ae7b">Principal</div>
 <h2 class="text-4xl font-bold text-white mb-6" data-ai-id="4681">Solomon Wassyihun <span class="text-lg font-normal text-slate-400 block mt-1" data-ai-id="42ae">FCCA, IFRS.Dip</span></h2>
 <div class="prose prose-invert prose-lg max-w-none text-slate-300 space-y-4" data-ai-id="68e5">
 <p data-ai-id="810e">Solomon is an audit expert and is well versed with the International Standards on Auditing as well as the International Financial Reporting Standards. Solomon has spent several years auditing organizations and companies in the profit and not for profit sectors and has extensive experience in audit of organizations in the, NGO, financial services and commercial sectors.</p>
@@ -217,7 +229,7 @@
 <img alt="Zergaw Negussu" class="rounded-3xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500" data-ai-id="fb6d" src="https://a12.click/ri/ddc6936ebadf?w=400&amp;h=533"/>
 </div>
 <div class="lg:w-2/3" data-ai-id="2aeb">
-<div class="inline-block px-4 py-1 mb-4 text-xs font-bold tracking-widest text-indigo-400 uppercase border border-indigo-400/30 rounded-full bg-indigo-400/10" data-ai-id="3773">Audit Manager</div>
+<div class="inline-block px-4 py-1 mb-4 text-xs font-bold tracking-widest text-red-400 uppercase border border-red-500/30 rounded-full bg-red-500/10" data-ai-id="3773">Audit Manager</div>
 <h2 class="text-4xl font-bold text-white mb-6" data-ai-id="cace">Zergaw Negussu <span class="text-lg font-normal text-slate-400 block mt-1" data-ai-id="a5e4">ACCA</span></h2>
 <div class="prose prose-invert prose-lg max-w-none text-slate-300 space-y-4" data-ai-id="59cc">
 <p data-ai-id="9d0e">Zergaw holds a Bachelor of Commerce Degree in accounting from Addis Ababa University. He is a Chartered Certified Accountant and a member of the Association of Chartered Certified Accountants (ACCA) U.K. He is a specialized and seasoned Tax consultant at the firm and consults highly in various tax matters ranging from Vat, Corporate Tax Customs and Excise etc.</p>
@@ -231,7 +243,7 @@
 <img alt="Tesfaye Wolkema" class="rounded-3xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500" data-ai-id="3fa2" src="https://a12.click/ri/bf16973711b2?w=600&amp;h=600"/>
 </div>
 <div class="lg:w-2/3" data-ai-id="e349">
-<div class="inline-block px-4 py-1 mb-4 text-xs font-bold tracking-widest text-indigo-400 uppercase border border-indigo-400/30 rounded-full bg-indigo-400/10" data-ai-id="1424">Audit Manager</div>
+<div class="inline-block px-4 py-1 mb-4 text-xs font-bold tracking-widest text-red-400 uppercase border border-red-500/30 rounded-full bg-red-500/10" data-ai-id="1424">Audit Manager</div>
 <h2 class="text-4xl font-bold text-white mb-6" data-ai-id="1966">Tesfaye Wolkema</h2>
 <div class="prose prose-invert prose-lg max-w-none text-slate-300 space-y-4" data-ai-id="c07c">
 <p data-ai-id="e7db">Tesfaye is an expert specializing in audit, financial reporting and management and financial consulting. His wide professional experience combined with his excellent educational background make him a first class audit manager and financial consultant. He holds a BA Degree in Accounting and Finance from the Addis Ababa University.</p>
@@ -257,12 +269,10 @@
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16" data-ai-id="0f5f">
 <div class="space-y-6" data-ai-id="acdf">
 <a class="flex items-center gap-3" data-ai-id="ca2e" href="index.html">
-<div class="w-10 h-10 rounded-lg flex items-center justify-center text-white bg-red-600" data-ai-id="704e">
-<i class="fas fa-balance-scale text-xl" data-ai-id="4de8"></i>
-</div>
+<img src="images/logo.png" alt="SWS Logo" class="h-10 w-auto object-contain" />
 <div class="flex flex-col" data-ai-id="a167">
 <span class="text-xl font-extrabold text-white leading-none" data-ai-id="f419">SOLOMON WASSYIHUN</span>
-<span class="text-[10px] tracking-[0.2em] font-bold uppercase text-brand-400" data-ai-id="10df">Certified Audit Firm</span>
+<span class="text-[10px] tracking-[0.2em] font-bold uppercase text-red-400" data-ai-id="10df">Certified Audit Firm</span>
 </div>
 </a>
 <p class="text-gray-300 leading-relaxed" data-ai-id="2a73">Professional audit, tax, and financial advisory services since 2012.</p>
@@ -278,13 +288,32 @@
 <div data-ai-id="8222">
 <h4 aria-level="3" class="text-lg font-bold mb-6" data-ai-id="f653">Services</h4>
 <ul class="space-y-4 text-gray-300" data-ai-id="faa1">
-<li data-ai-id="1701"><a class="hover:text-brand-300 transition-colors" data-ai-id="cfde" href="#">Audit &amp; Assurance</a></li>
-<li data-ai-id="aa23"><a class="hover:text-brand-300 transition-colors" data-ai-id="3759" href="#">Tax Consultancy</a></li>
+<li data-ai-id="1701"><a class="hover:text-[#9e1b2e] transition-colors" data-ai-id="cfde" href="services.html">Audit &amp; Assurance</a></li>
+<li data-ai-id="s-consult"><a class="hover:text-[#9e1b2e] transition-colors" href="services.html">Consulting</a></li>
+<li data-ai-id="aa23"><a class="hover:text-[#9e1b2e] transition-colors" data-ai-id="3759" href="services.html">Tax Advisory</a></li>
+<li data-ai-id="s-ifrs"><a class="hover:text-[#9e1b2e] transition-colors" href="services.html">IFRS Services</a></li>
+<li data-ai-id="s-other"><a class="hover:text-[#9e1b2e] transition-colors" href="services.html">Other Services</a></li>
 </ul>
 </div>
 <div data-ai-id="d69d">
 <h4 class="text-lg font-bold mb-6" data-ai-id="1da5">Contact</h4>
-<p class="text-gray-300 text-sm" data-ai-id="47fc">Addis Ababa, Ethiopia<br data-ai-id="3f00"/>info@solomonwassyihun.com</p>
+<div class="space-y-4 text-gray-300 text-sm" data-ai-id="47fc">
+  <div class="flex items-start gap-3">
+    <i class="fas fa-map-marker-alt text-[#9e1b2e] mt-1 flex-shrink-0 text-base"></i>
+    <span>7th Floor Beal Building, Kera<br/>Addis Ababa, Ethiopia</span>
+  </div>
+  <div class="flex items-start gap-3">
+    <i class="fas fa-phone-alt text-[#9e1b2e] mt-1 flex-shrink-0 text-base"></i>
+    <div class="space-y-1">
+      <a href="tel:+251911237386" class="hover:text-white transition-colors block">+251 911 237386</a>
+      <a href="tel:+25171237386" class="hover:text-white transition-colors block">+251 712 37386</a>
+    </div>
+  </div>
+  <div class="flex items-center gap-3">
+    <i class="fas fa-envelope text-[#9e1b2e] flex-shrink-0 text-base"></i>
+    <a href="mailto:info@swsauditors.com" class="hover:text-white transition-colors">info@swsauditors.com</a>
+  </div>
+</div>
 </div>
 </div>
 <div class="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-300" data-ai-id="a7c9">
@@ -297,8 +326,6 @@
 </div>
 </footer>
 
-<!-- orivox-branding:start -->
-<div style="clear:both;width:100%;box-sizing:border-box;padding:10px 16px;text-align:center;font:12px/1.6 system-ui,-apple-system,'Segoe UI',Arial,sans-serif;opacity:.78;">Created by <a href="https://orivox.org" target="_blank" rel="noopener" style="color:inherit;font-weight:600;text-decoration:underline;">orivox.org</a></div>
-<!-- orivox-branding:end -->
+
 </body>
 </html>

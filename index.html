@@ -21,10 +21,13 @@
       },
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "7th Floor Beal Building, Kera",
         "addressLocality": "Addis Ababa",
         "addressCountry": "Ethiopia"
       },
-      "description": "Professional audit, tax, and financial advisory services."
+      "description": "Professional audit, tax, and financial advisory services.",
+      "telephone": ["+251911237386", "+25171237386"],
+      "email": "info@swsauditors.com"
     }
     </script>
 <script defer="" src="/static/shared_data/js/form_prefill.js?v=20260613-init"></script>
@@ -40,6 +43,19 @@
 .border-brand-700, .border-indigo-600, .border-indigo-400 { border-color: var(--brand-blue) !important; }
 .hover\:bg-brand-800:hover, .hover\:bg-indigo-500:hover { background-color: #2a3c8a !important; }
 .from-indigo-400 { --tw-gradient-from: var(--brand-blue) !important; }
+
+:root {
+    --brand-blue: #1b4d89;
+    --brand-red: #9e1b2e;
+    --brand-red-hover: #7d1323;
+}
+.border-red-accent { border-top: 4px solid var(--brand-red) !important; }
+.btn-primary, .bg-brand-700 { background-color: var(--brand-red) !important; }
+.btn-primary:hover, .hover\:bg-brand-800:hover { background-color: var(--brand-red-hover) !important; }
+.text-brand-red { color: var(--brand-red) !important; }
+.badge-red { background-color: rgba(158, 27, 46, 0.12); color: var(--brand-red); border: 1px solid rgba(158, 27, 46, 0.25); }
+.card-hover-red:hover { border-color: var(--brand-red) !important; }
+
 </style>
 <script defer="" src="/static/shared_data/js/gallery.js?v=20260513-dom-runtime"></script>
 <script src="https://cdn.tailwindcss.com"></script>
@@ -127,7 +143,7 @@
             height: 2px;
             bottom: -4px;
             left: 0;
-            background-color: #005da3;
+            background-color: var(--brand-red, #9e1b2e);
             transition: width 0.3s ease;
         }
         .nav-link:hover::after {
@@ -141,11 +157,10 @@
 <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center" data-ai-id="406e">
 <!-- Logo -->
 <a class="flex items-center gap-3 group" data-ai-id="0afd" href="index.html">
-<div class="w-10 h-10 rounded-lg flex items-center justify-center text-white transition-transform group-hover:rotate-12 bg-red-600" data-ai-id="4b19" style='background-color: #dc2626; background-image: url("/static/business/9f3164b8-9d83-4bc1-b5e0-ce9cf47f5f2f/images/bce0c7fb_710_710.png"); background-size: cover; background-position: center center; background-repeat: no-repeat'>
-</div>
+<img src="images/logo.png" alt="SWS Logo" class="h-10 w-auto object-contain transition-transform group-hover:scale-105" />
 <div class="flex flex-col" data-ai-id="ac00">
 <span class="text-xl font-extrabold leading-none text-white" data-ai-id="d280">SOLOMON WASSYIHUN</span>
-<span class="text-[10px] tracking-[0.2em] font-bold uppercase text-brand-400" data-ai-id="fb15">Certified Audit Firm</span>
+<span class="text-[10px] tracking-[0.2em] font-bold uppercase text-red-400" data-ai-id="fb15">Certified Audit Firm</span>
 </div>
 </a>
 <!-- Hamburger -->
@@ -155,8 +170,8 @@
 <!-- Navigation -->
 <nav class="hidden flex flex-col gap-6 p-6 absolute top-full left-0 w-full border-t shadow-lg md:flex md:flex-row md:items-center md:static md:w-auto md:bg-transparent md:border-none md:shadow-none md:p-0 bg-neutral-950" data-ai-id="c29c" id="primary-nav">
 <a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="7304" href="index.html#hero">Home</a>
-<a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="ce75" href="recognition.html">Recognition</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="services2-nav" href="https://fqep2f.s.orivox.org/services2.html" style="">Services</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="the-team-nav" href="the_team.html">The Team</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="markets-nav" href="markets.html">Markets</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="affiliations-nav" href="affiliations.html">Affiliations</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="terms-fees-nav" href="terms_and_fees.html">Terms and Fees</a>
-<a class="btn-primary bg-brand-700 text-white px-6 py-2.5 rounded-full text-sm font-semibold" data-ai-id="34a0" href="/new_design/view_site/2d4b558eede24fa087c45ada6f10c206/page_guid/c2608fc3#contact" style="">Get in Touch</a>
+<a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="ce75" href="recognition.html">Recognition</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="services-nav" href="services.html" style="">Services</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="the-team-nav" href="the_team.html">The Team</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="markets-nav" href="markets.html">Markets</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="affiliations-nav" href="affiliations.html">Affiliations</a><a class="nav-link font-medium hover:text-brand-700 transition-colors text-gray-300" data-ai-id="terms-fees-nav" href="terms_and_fees.html">Terms and Fees</a>
+<a class="btn-primary bg-brand-700 text-white px-6 py-2.5 rounded-full text-sm font-semibold" data-ai-id="34a0" href="index.html#contact" style="">Get in Touch</a>
 </nav>
 </div>
 <script>
@@ -188,8 +203,8 @@
                     </h1>
 <p class="text-xl md:text-2xl text-slate-300 mb-12 leading-relaxed max-w-2xl" data-ai-id="a962" style="font-family: 'Century Gothic', sans-serif">Empowering organizations with high-volume financial requirements through surgical audit precision and strategic advisory.</p>
 <div class="flex flex-wrap gap-6" data-ai-id="30dc">
-<a class="px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl transition-all transform hover:-translate-y-1 shadow-lg shadow-indigo-600/20" data-ai-id="6a74" href="/new_design/view_site/2d4b558eede24fa087c45ada6f10c206/page_guid/82102bb5" style="">Our Expertise</a>
-<a class="px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl backdrop-blur-md border border-white/20 transition-all" data-ai-id="2083" href="/new_design/view_site/2d4b558eede24fa087c45ada6f10c206/page_guid/c2608fc3#contact" style="">Request Consultation</a>
+<a class="px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl transition-all transform hover:-translate-y-1 shadow-lg shadow-indigo-600/20" data-ai-id="6a74" href="services.html" style="">Our Expertise</a>
+<a class="px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl backdrop-blur-md border border-white/20 transition-all" data-ai-id="2083" href="index.html#contact" style="">Request Consultation</a>
 </div>
 </div>
 </div>
@@ -264,35 +279,42 @@
 <h3 class="text-4xl md:text-6xl font-extrabold mb-8" data-ai-id="e044">Comprehensive Solutions.</h3>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8" data-ai-id="479c">
-<div class="group p-12 bg-slate-800/50 rounded-3xl border border-slate-700 hover:border-indigo-500 transition-all" data-ai-id="3d58">
-<div class="w-16 h-16 bg-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-400 mb-8 group-hover:bg-indigo-500 group-hover:text-white transition-all" data-ai-id="43ad">
-<i class="fas fa-file-contract text-3xl" data-ai-id="397f"></i>
-</div>
-<h4 class="text-2xl font-bold mb-4" data-ai-id="6c88">Audit &amp; Assurance</h4>
-<p class="text-slate-400 leading-relaxed" data-ai-id="d0e5">Rigorous independent examinations of financial statements to ensure absolute accuracy and regulatory compliance.</p>
-</div>
-<div class="group p-12 bg-slate-800/50 rounded-3xl border border-slate-700 hover:border-indigo-500 transition-all" data-ai-id="12cf">
-<div class="w-16 h-16 bg-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-400 mb-8 group-hover:bg-indigo-500 group-hover:text-white transition-all" data-ai-id="e4bf">
-<i class="fas fa-calculator text-3xl" data-ai-id="7db9"></i>
-</div>
-<h4 class="text-2xl font-bold mb-4" data-ai-id="bcb4">Tax Consultancy</h4>
-<p class="text-slate-400 leading-relaxed" data-ai-id="c776">Strategic tax planning and compliance services designed to optimize your organization's global tax position.</p>
-</div>
-<div class="group p-12 bg-slate-800/50 rounded-3xl border border-slate-700 hover:border-indigo-500 transition-all" data-ai-id="05f8">
-<div class="w-16 h-16 bg-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-400 mb-8 group-hover:bg-indigo-500 group-hover:text-white transition-all" data-ai-id="363a">
-<i class="fas fa-sync text-3xl" data-ai-id="6ce3"></i>
-</div>
-<h4 class="text-2xl font-bold mb-4" data-ai-id="5abd">Financial Outsourcing</h4>
-<p class="text-slate-400 leading-relaxed" data-ai-id="db81">Full-scale financial operations management to streamline your business and significantly reduce overhead.</p>
-</div>
-<div class="group p-12 bg-slate-800/50 rounded-3xl border border-slate-700 hover:border-indigo-500 transition-all" data-ai-id="0c08">
-<div class="w-16 h-16 bg-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-400 mb-8 group-hover:bg-indigo-500 group-hover:text-white transition-all" data-ai-id="ab45">
-<i class="fas fa-chart-pie text-3xl" data-ai-id="c43a"></i>
-</div>
-<h4 class="text-2xl font-bold mb-4" data-ai-id="4091">Strategic Advisory</h4>
-<p class="text-slate-400 leading-relaxed" data-ai-id="552c">Expert guidance on mergers, acquisitions, and long-term financial strategy for sustainable organizational growth.</p>
-</div>
-</div>
+                <!-- Audit & Assurance -->
+                <div class="group p-12 bg-slate-800/50 rounded-3xl border border-slate-700 hover:border-red-600 transition-all border-t-4 border-t-[#9e1b2e]" data-ai-id="3d58">
+                    <div class="w-16 h-16 bg-red-600/10 rounded-2xl flex items-center justify-center text-red-500 mb-8 group-hover:bg-[#9e1b2e] group-hover:text-white transition-all" data-ai-id="43ad">
+                        <i class="fas fa-file-contract text-3xl" data-ai-id="397f"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4" data-ai-id="6c88">Audit &amp; Assurance</h4>
+                    <p class="text-slate-400 leading-relaxed" data-ai-id="d0e5">Rigorous independent examinations of financial statements to ensure absolute accuracy and regulatory compliance.</p>
+                </div>
+
+                <!-- Consulting -->
+                <div class="group p-12 bg-slate-800/50 rounded-3xl border border-slate-700 hover:border-red-600 transition-all border-t-4 border-t-[#9e1b2e]" data-ai-id="0c08">
+                    <div class="w-16 h-16 bg-red-600/10 rounded-2xl flex items-center justify-center text-red-500 mb-8 group-hover:bg-[#9e1b2e] group-hover:text-white transition-all" data-ai-id="ab45">
+                        <i class="fas fa-chart-pie text-3xl" data-ai-id="c43a"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4" data-ai-id="4091">Consulting</h4>
+                    <p class="text-slate-400 leading-relaxed" data-ai-id="552c">Corporate restructuring, strategic planning, business valuation, human resource management, and company secretarial services.</p>
+                </div>
+
+                <!-- Tax Advisory -->
+                <div class="group p-12 bg-slate-800/50 rounded-3xl border border-slate-700 hover:border-red-600 transition-all border-t-4 border-t-[#9e1b2e]" data-ai-id="12cf">
+                    <div class="w-16 h-16 bg-red-600/10 rounded-2xl flex items-center justify-center text-red-500 mb-8 group-hover:bg-[#9e1b2e] group-hover:text-white transition-all" data-ai-id="e4bf">
+                        <i class="fas fa-calculator text-3xl" data-ai-id="7db9"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4" data-ai-id="bcb4">Tax Advisory</h4>
+                    <p class="text-slate-400 leading-relaxed" data-ai-id="c776">Strategic tax planning, compliance reviews, computing statutory returns, and due diligence by an independent specialized team.</p>
+                </div>
+
+                <!-- Other Services -->
+                <div class="group p-12 bg-slate-800/50 rounded-3xl border border-slate-700 hover:border-red-600 transition-all border-t-4 border-t-[#9e1b2e]" data-ai-id="05f8">
+                    <div class="w-16 h-16 bg-red-600/10 rounded-2xl flex items-center justify-center text-red-500 mb-8 group-hover:bg-[#9e1b2e] group-hover:text-white transition-all" data-ai-id="363a">
+                        <i class="fas fa-sync text-3xl" data-ai-id="6ce3"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4" data-ai-id="5abd">Other Services</h4>
+                    <p class="text-slate-400 leading-relaxed" data-ai-id="db81">Comprehensive accountancy, payroll administration, accounts review, and specialized business advisory solutions.</p>
+                </div>
+            </div>
 </div>
 </section>
 <!-- Team Section -->
@@ -336,7 +358,7 @@
 </div>
 <div data-ai-id="a5c7">
 <h4 class="font-bold" data-ai-id="48fe">Our Office</h4>
-<p class="text-indigo-100" data-ai-id="2923">Addis Ababa, Ethiopia</p>
+<p class="text-indigo-100" data-ai-id="2923">7th Floor Beal Building, Kera<br/>Addis Ababa, Ethiopia</p>
 </div>
 </div>
 <div class="flex items-start gap-6" data-ai-id="aed1">
@@ -345,7 +367,7 @@
 </div>
 <div data-ai-id="fa13">
 <h4 class="font-bold" data-ai-id="f313">Call Us</h4>
-<p class="text-indigo-100" data-ai-id="1cb6">+251 (0) 11 123 4567</p>
+<p class="text-indigo-100" data-ai-id="1cb6">+251 911 237386<br/>+251 712 37386</p>
 </div>
 </div>
 <div class="flex items-start gap-6" data-ai-id="email-contact-item">
@@ -392,12 +414,10 @@
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16" data-ai-id="0f5f">
 <div class="space-y-6" data-ai-id="acdf">
 <a class="flex items-center gap-3" data-ai-id="ca2e" href="index.html">
-<div class="w-10 h-10 rounded-lg flex items-center justify-center text-white bg-red-600" data-ai-id="704e">
-<i class="fas fa-balance-scale text-xl" data-ai-id="4de8"></i>
-</div>
+<img src="images/logo.png" alt="SWS Logo" class="h-10 w-auto object-contain" />
 <div class="flex flex-col" data-ai-id="a167">
 <span class="text-xl font-extrabold text-white leading-none" data-ai-id="f419">SOLOMON WASSYIHUN</span>
-<span class="text-[10px] tracking-[0.2em] font-bold uppercase text-brand-400" data-ai-id="10df">Certified Audit Firm</span>
+<span class="text-[10px] tracking-[0.2em] font-bold uppercase text-red-400" data-ai-id="10df">Certified Audit Firm</span>
 </div>
 </a>
 <p class="text-gray-300 leading-relaxed" data-ai-id="2a73">Professional audit, tax, and financial advisory services since 2012.</p>
@@ -413,13 +433,32 @@
 <div data-ai-id="8222">
 <h4 aria-level="3" class="text-lg font-bold mb-6" data-ai-id="f653">Services</h4>
 <ul class="space-y-4 text-gray-300" data-ai-id="faa1">
-<li data-ai-id="1701"><a class="hover:text-brand-300 transition-colors" data-ai-id="cfde" href="#">Audit &amp; Assurance</a></li>
-<li data-ai-id="aa23"><a class="hover:text-brand-300 transition-colors" data-ai-id="3759" href="#">Tax Consultancy</a></li>
+<li data-ai-id="1701"><a class="hover:text-[#9e1b2e] transition-colors" data-ai-id="cfde" href="services.html">Audit &amp; Assurance</a></li>
+<li data-ai-id="s-consult"><a class="hover:text-[#9e1b2e] transition-colors" href="services.html">Consulting</a></li>
+<li data-ai-id="aa23"><a class="hover:text-[#9e1b2e] transition-colors" data-ai-id="3759" href="services.html">Tax Advisory</a></li>
+<li data-ai-id="s-ifrs"><a class="hover:text-[#9e1b2e] transition-colors" href="services.html">IFRS Services</a></li>
+<li data-ai-id="s-other"><a class="hover:text-[#9e1b2e] transition-colors" href="services.html">Other Services</a></li>
 </ul>
 </div>
 <div data-ai-id="d69d">
 <h4 class="text-lg font-bold mb-6" data-ai-id="1da5">Contact</h4>
-<p class="text-gray-300 text-sm" data-ai-id="47fc">Addis Ababa, Ethiopia<br data-ai-id="3f00"/>info@solomonwassyihun.com</p>
+<div class="space-y-4 text-gray-300 text-sm" data-ai-id="47fc">
+  <div class="flex items-start gap-3">
+    <i class="fas fa-map-marker-alt text-[#9e1b2e] mt-1 flex-shrink-0 text-base"></i>
+    <span>7th Floor Beal Building, Kera<br/>Addis Ababa, Ethiopia</span>
+  </div>
+  <div class="flex items-start gap-3">
+    <i class="fas fa-phone-alt text-[#9e1b2e] mt-1 flex-shrink-0 text-base"></i>
+    <div class="space-y-1">
+      <a href="tel:+251911237386" class="hover:text-white transition-colors block">+251 911 237386</a>
+      <a href="tel:+25171237386" class="hover:text-white transition-colors block">+251 712 37386</a>
+    </div>
+  </div>
+  <div class="flex items-center gap-3">
+    <i class="fas fa-envelope text-[#9e1b2e] flex-shrink-0 text-base"></i>
+    <a href="mailto:info@swsauditors.com" class="hover:text-white transition-colors">info@swsauditors.com</a>
+  </div>
+</div>
 </div>
 </div>
 <div class="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-300" data-ai-id="a7c9">
@@ -432,8 +471,6 @@
 </div>
 </footer>
 
-<!-- orivox-branding:start -->
-<div style="clear:both;width:100%;box-sizing:border-box;padding:10px 16px;text-align:center;font:12px/1.6 system-ui,-apple-system,'Segoe UI',Arial,sans-serif;opacity:.78;">Created by <a href="https://orivox.org" target="_blank" rel="noopener" style="color:inherit;font-weight:600;text-decoration:underline;">orivox.org</a></div>
-<!-- orivox-branding:end -->
+
 </body>
 </html>
